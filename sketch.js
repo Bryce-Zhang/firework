@@ -57,11 +57,14 @@ function draw() {
 
 function makeText() {
   image(castle, width*0.1167, height*0.667, width*0.667, height*0.333);
-  image(logo, 0, 0, width/6, height/6);
-  txt = '沧海揽明月 邀请你看烟花啦！！（点击空白处）'
+  image(logo, 0, 0, width/6, width/6);
+  txt1 = '沧海揽明月 邀请你看烟花啦！！'
+  txt1 = '(点击空白处)'
+	
   fill(255);
   textSize(20);
-  text(txt, width/6, height*0.8333);
+  text(txt1, width/6, height*0.08333);
+  text(txt2, width/3, height*0.166);
   
 }
 
