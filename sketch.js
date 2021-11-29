@@ -61,7 +61,7 @@ function makeText() {
   txt = '沧海揽明月 邀请你看烟花啦！！（点击空白处）'
   fill(255);
   textSize(20);
-  text(txt, 200, 50);
+  text(txt, 100, 50);
   
 }
 
