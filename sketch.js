@@ -64,7 +64,7 @@ function makeText() {
   fill(255);
   textSize(20);
   text(txt1, width/6, height*0.08333);
-  text(txt2, width/3, height*0.1777);
+  text(txt2, width*0.222, height*0.1777);
   
 }
 
